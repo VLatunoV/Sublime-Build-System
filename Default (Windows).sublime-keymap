@@ -1,0 +1,36 @@
+[
+	{
+		"keys": ["ctrl+shift+b"],
+		"command": "build",
+		"args":
+		{
+			"variant": "Run",
+			"build_system": "Packages/C++/C++ Single File.sublime-build"
+		},
+		"context":
+		[
+			{	
+				"key": "selector",
+				"operator": "equal",
+				"operand": "source.c, source.c++"
+			}
+		]
+	},
+	{
+		"keys": ["ctrl+b"],
+		"command": "build",
+		"args":
+		{
+			"variant": "Build",
+			"build_system": "Packages/C++/C++ Single File.sublime-build"
+		},
+		"context":
+		[
+			{	
+				"key": "selector",
+				"operator": "equal",
+				"operand": "source.c, source.c++"
+			}
+		]
+	}
+]
