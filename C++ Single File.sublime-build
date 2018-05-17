@@ -8,7 +8,7 @@
 	[
 		{
 			"name": "Build",
-			"shell_cmd": "g++ -Wall -Wextra \"${file}\" -o \"${file_path}/${file_base_name}\""
+			"shell_cmd": "g++ -O2 -Wall -Wextra \"${file}\" -o \"${file_path}/${file_base_name}\""
 		},
 		{
 			"name": "Run",
